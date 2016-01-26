@@ -16,8 +16,8 @@ public class KisoKadai2 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-
-		int number= 17;
+System.out.println("数字を入力してください。");
+		int number=new java.util.Scanner(System.in) .nextInt();
 
 		   if(number==17){
 			   System.out.println("正解");
