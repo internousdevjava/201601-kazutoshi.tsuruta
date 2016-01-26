@@ -13,8 +13,8 @@ public class KisoKadai1 {
 	 */
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		int x=1;
-		int y=1;
+		int x=new java.util.Scanner(System.in) .nextInt();
+		int y=new java.util.Scanner(System.in) .nextInt();
 for(int j = 1; j <= x; j ++) {
 for(int i = 1; i <= y; i ++) {
 	int value = i * j;
