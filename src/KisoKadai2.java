@@ -22,7 +22,7 @@ public class KisoKadai2 {
 
 		while (sc.hasNext()){
 		String s = sc.next();
-		System.out.println("入力された文字:"+s);
+		System.out.println("入力された文字: "+s);
 
 
 		}

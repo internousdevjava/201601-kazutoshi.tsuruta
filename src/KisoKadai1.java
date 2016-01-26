@@ -18,7 +18,7 @@ public class KisoKadai1 {
 for(int j = 1; j <= x; j ++) {
 for(int i = 1; i <= y; i ++) {
 	int value = i * j;
-	System.out.print(j + "*" + i + "=");
+	System.out.print(j + "*" + i + " = ");
 		if(value < 10) {
 		System.out.print(" ");
 		}
