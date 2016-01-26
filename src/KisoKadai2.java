@@ -6,7 +6,7 @@
  * @author internous
  *
  */
-import java.util.Scanner;
+
 public class KisoKadai2 {
 
 	/**
@@ -17,15 +17,17 @@ public class KisoKadai2 {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 
-		Scanner sc = new Scanner(System.in);
-		System.out.println("繰り返し入れろ");
+		int number= 17;
 
-		while (sc.hasNext()){
-		String s = sc.next();
-		System.out.println("入力された文字: "+s);
+		   if(number==17){
+			   System.out.println("正解");
+		   }else if (number>18){
+			   System.out.println("ハズレ");
+		   }else if (number<16){
+			   System.out.println("ハズレ");
+		   }
 
 
-		}
 	}
 
 }
