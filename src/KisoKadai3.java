@@ -19,9 +19,11 @@ import java.io.InputStreamReader;
 public class KisoKadai3 {
 	public static void folder(){
 		String f1,f2;
+		System.out.println("フォルダーを作る場所を絶対パスで指定してください。");
 		f1=new java.util.Scanner(System.in) .nextLine();
 		File file = new File(f1);
 		if(file.exists()){
+			System.out.println("新しく作るフォルダーの名前を入力してください。");
 			f2=new java.util.Scanner(System.in) .nextLine();
 			File nFile=new File(f1+"\\"+f2);
 			nFile.mkdir();
@@ -37,7 +39,7 @@ public class KisoKadai3 {
 	 */
 	public static void file(){
 		String f1,f2;
-		System.out.println("保存する場所を絶対パスで入力してください。");
+		System.out.println("保存する場所を絶対パスで入力してください。その際に絶対パスの￥マークを一つずつ追加してください。");
 		f1=new java.util.Scanner(System.in) .nextLine();
 		File file = new File(f1);
 		if(file.exists()){
